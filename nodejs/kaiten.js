@@ -10,8 +10,7 @@ let display = (count) => {
             for(let j=0;(count%10)>j;j++){
                 process.stdout.write("　");
             }
-            process.stdout.write("〇〇");
-            process.stdout.write(String(count));
+            process.stdout.write("〇〇=>");
             resolve();
         }, 100);
     });
